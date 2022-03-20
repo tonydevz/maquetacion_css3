@@ -78,7 +78,7 @@ nav .profile-link a {
 .main-home {
     width: 100%;
     height: 100%;
-    background-image: url(./assets/img/Cover.png);
+    background-image: url(./font/Cover.png);
     background-size: cover;
     background-position: center;
     display: flex;
@@ -94,6 +94,7 @@ nav .profile-link a {
     letter-spacing: 10px;
     font-size: 40px;
     width: 100%;
+    max-width: 976px;
 }
 .main-home .main-container-buttom {
     background-color: #47cfac;
@@ -183,6 +184,7 @@ footer p {
 .blogpost-img-container img {
     width: 100%;
     height: 800px;
+    border-radius: 100%;
 }
 .blogpost-main-container {
     padding: 0 50px 40px;
